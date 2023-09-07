@@ -78,7 +78,7 @@ class Details extends Component {
 
 let mapStateToProps = (state) => {
   return {
-    details: state.details,
+    details: state.shoesReducer.details,
   };
 };
 

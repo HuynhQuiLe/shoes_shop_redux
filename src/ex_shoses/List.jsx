@@ -15,7 +15,7 @@ class List extends Component {
 
 let mapStateToProps = (state) => {
   return {
-    shoeses: state.shoeses,
+    shoeses: state.shoesReducer.shoeses,
   };
 };
 
